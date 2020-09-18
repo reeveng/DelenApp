@@ -1,0 +1,112 @@
+@import '../../../../styles/config.scss';
+
+.c-contact-card {
+  background: $background-card;
+  border-radius: 6px;
+  display: flex;
+  padding: 3rem 2rem;
+  margin: 3rem;
+  height: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 100%;
+  text-align: center;
+
+  .c-contact-card__info,
+  .c-contact-card__actions {
+    width: 49%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .profile-image {
+    height: 10rem;
+    width: 10rem;
+    display: block;
+  }
+
+  .c-contact-card__divider {
+    min-width: 2px;
+    min-height: 30%;
+    position: absolute;
+    border-radius: 50px;
+    background-color: $background-card--middle;
+    opacity: 0.1;
+  }
+
+  .c-contact-card__info {
+    .name {
+      @extend .u-text-h1;
+      margin: 1rem 0;
+    }
+
+    .other {
+      @extend .u-text-h2;
+    }
+  }
+
+  .o-button-list {
+    width: 70%;
+
+    .contact-button {
+      @extend .u-text-card--button;
+      background: $background-card--button;
+      display: flex;
+      margin: 0.5rem;
+      border-radius: 4px;
+      padding: 1rem 0;
+      border: none;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+
+      & img {
+        width: 20px;
+        height: 20px;
+        margin-right: 1rem;
+        filter: brightness(0) saturate(100%) invert(36%) sepia(11%) saturate(2529%) hue-rotate(160deg) brightness(94%)
+          contrast(94%);
+      }
+
+      &:hover {
+        transition: 0.5;
+        background: $background-card--button-hover;
+        color: $color-card--button-hover;
+        cursor: pointer;
+
+        img {
+          filter: brightness(0) saturate(100%) invert(98%) sepia(27%) saturate(5558%) hue-rotate(179deg)
+            brightness(115%) contrast(93%);
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .c-contact-card {
+    flex-direction: column;
+    margin: 2rem 2rem;
+
+    .c-contact-card__divider {
+      min-height: 2px;
+      min-width: 100%;
+      position: relative;
+    }
+    .c-contact-card__info {
+      margin-bottom: 1rem;
+      width: 100%;
+    }
+    .c-contact-card__actions {
+      margin-top: 1rem;
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .c-contact-card {
+    margin: 2rem 0rem;
+  }
+}

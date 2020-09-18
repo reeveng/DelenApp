@@ -1,0 +1,130 @@
+{
+  "contract": {
+    "contactPersons": [
+      {
+        "contactPersonType": "manager",
+        "userId": "maxsch",
+        "firstName": "Maxime",
+        "lastName": "Schöller",
+        "telephoneNumber": "+32 3 244 54 39",
+        "emailAddress": "maxime.schoeller@delen.be",
+        "relationshipNameAll": "Relatiebeheerder",
+        "officeLocation": "Brussel"
+      },
+      {
+        "contactPersonType": "manager",
+        "userId": "pauldw",
+        "firstName": "Paul",
+        "lastName": "De Winter",
+        "telephoneNumber": "+32 3 244 55 20",
+        "emailAddress": "paul.dewinter@delen.be",
+        "relationshipNameAll": "Relatiebeheerder",
+        "officeLocation": "Antwerpen"
+      },
+      {
+        "contactPersonType": "successionAdvisor",
+        "userId": "hildea",
+        "firstName": "Hilde",
+        "lastName": "Van der Auwermeulen",
+        "telephoneNumber": "+32 3 244 54 91",
+        "emailAddress": "hilde.vanderauwermeulen@delen.be",
+        "relationshipNameAll": "Successie Adviseur",
+        "officeLocation": "Antwerpen"
+      },
+      {
+        "contactPersonType": "manager",
+        "userId": "gercut",
+        "firstName": "Gérald",
+        "lastName": "Van Cutsem",
+        "telephoneNumber": "+32 3 244 54 73",
+        "emailAddress": "gerald.vancutsem@delen.be",
+        "relationshipNameAll": "Relatiebeheerder",
+        "officeLocation": "Antwerpen"
+      },
+      {
+        "contactPersonType": "manager",
+        "userId": "thiery",
+        "firstName": "Thierry",
+        "lastName": "Istas",
+        "telephoneNumber": "+32 3 244 55 23",
+        "emailAddress": "thierry.istas@delen.be",
+        "relationshipNameAll": "Relatiebeheerder",
+        "officeLocation": "Antwerpen"
+      },
+      {
+        "contactPersonType": "fiscalAdvisor",
+        "userId": "hvxjac",
+        "firstName": "Jacques",
+        "lastName": "Dierickx",
+        "telephoneNumber": "+32 2 500 56 27",
+        "emailAddress": "jacques.dierickx@delen.be",
+        "relationshipNameAll": "Fiscaal Adviseur",
+        "officeLocation": "Antwerpen"
+      },
+      {
+        "contactPersonType": "manager",
+        "userId": "ramgvb",
+        "firstName": "Greta",
+        "lastName": "Vandenberghe",
+        "telephoneNumber": "+32 2 500 56 39",
+        "emailAddress": "greta.vandenberghe@delen.be",
+        "relationshipNameAll": "Relatiebeheerder",
+        "officeLocation": "Antwerpen"
+      },
+      {
+        "contactPersonType": "patrimonialAdvisor",
+        "userId": "steosa",
+        "firstName": "Steven",
+        "lastName": "Osaer",
+        "telephoneNumber": "+32 3 244 55 07",
+        "emailAddress": "steven.osaer@delen.be",
+        "relationshipNameAll": "Patrimoniaal Adviseur",
+        "officeLocation": "Antwerpen"
+      }
+    ]
+  },
+  "person": {
+    "contactPersons": [
+      {
+        "contactPersonType": "manager",
+        "userId": "thiery",
+        "firstName": "Thierry",
+        "lastName": "Istas",
+        "telephoneNumber": "+32 3 244 55 23",
+        "emailAddress": "thierry.istas@delen.be",
+        "relationshipNameAll": "Relatiebeheerder",
+        "officeLocation": "Antwerpen"
+      },
+      {
+        "contactPersonType": "manager",
+        "userId": "gercut",
+        "firstName": "Gérald",
+        "lastName": "Van Cutsem",
+        "telephoneNumber": "+32 3 244 54 73",
+        "emailAddress": "gerald.vancutsem@delen.be",
+        "relationshipNameAll": "Relatiebeheerder",
+        "officeLocation": "Antwerpen"
+      },
+      {
+        "contactPersonType": "fiscalAdvisor",
+        "userId": "hvxjac",
+        "firstName": "Jacques",
+        "lastName": "Dierickx",
+        "telephoneNumber": "+32 2 500 56 27",
+        "emailAddress": "jacques.dierickx@delen.be",
+        "relationshipNameAll": "Fiscaal Adviseur",
+        "officeLocation": "Antwerpen"
+      },
+      {
+        "contactPersonType": "agent",
+        "userId": "janjan",
+        "firstName": "Jan",
+        "lastName": "Janssens",
+        "telephoneNumber": "+32 1 400 25 68",
+        "emailAddress": "jan.janssens@delen.be",
+        "relationshipNameAll": "Agent",
+        "officeLocation": "Hasselt"
+      }
+    ]
+  }
+}

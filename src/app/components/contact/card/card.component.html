@@ -1,0 +1,31 @@
+<div class="c-contact-card {{person.userId}}">
+  <div class="c-contact-card__info">
+    <img class="profile-image"
+      src="https://api.digital.dvlp.delen.be/api/images/contactPersons?emailAddress={{person.emailAddress}}" />
+    <div class="name">
+      {{person.firstName | titlecase}}<br />
+      {{person.lastName | titlecase}}
+    </div>
+    <div class="other">
+      {{person.relationshipNameAll | titlecase}}<br />
+      {{person.officeLocation | titlecase}}
+    </div>
+  </div>
+  <div class="c-contact-card__divider"></div>
+  <div class="c-contact-card__actions">
+    <div class="o-button-list">
+      <a class="contact-button" href="tel:{{person.telephoneNumber | removeWhiteSpaces}}">
+        <img src="assets/vectors/phone.svg" />
+        {{person.telephoneNumber}}
+      </a>
+      <a class="contact-button">
+        <img src="assets/vectors/calendar.svg" />
+        Maak een afspraak
+      </a>
+      <a class="contact-button" href="mailto:{{person.emailAddress}}">
+        <img src="assets/vectors/email.svg" />
+        Stuur een bericht
+      </a>
+    </div>
+  </div>
+</div>

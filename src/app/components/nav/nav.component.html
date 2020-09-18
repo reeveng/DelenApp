@@ -1,0 +1,45 @@
+<div class="c-nav__container">
+  <div class="c-nav">
+    <div class="c-nav__home">
+      <button [routerLink]="['/home']" class="c-nav__button round">
+        <img src="/assets/vectors/home.svg" width="24px" height="24px" />
+      </button>
+    </div>
+    <div class="c-nav__main">
+      <div class="c-nav__title">Contact</div>
+      <div class="c-nav__links">
+        <span class="active" [routerLink]="['/contact']">
+          <img src="assets/vectors/group.svg" />
+          Contacten
+        </span>
+        <span [routerLink]="['/message']">
+          <img src="assets/vectors/comments.svg" />
+          Berichten
+        </span>
+        <span [routerLink]="['/help']">
+          <img src="assets/vectors/question.svg" />
+          Hulp nodig?
+        </span>
+      </div>
+    </div>
+    <div class="c-nav__menu">
+      <button class="c-nav__button round" (click)="toggleMenu()">
+        <img src="assets/vectors/menu.svg" />
+      </button>
+      <div class="popup-menu">
+        <div class="active" [routerLink]="['/contact']" (click)="toggleMenu()">
+          <img src="assets/vectors/group.svg" />
+          Contacten
+        </div>
+        <div [routerLink]="['/message']" (click)="toggleMenu()">
+          <img src="assets/vectors/comments.svg" />
+          Berichten
+        </div>
+        <div [routerLink]="['/help']" (click)="toggleMenu()">
+          <img src="assets/vectors/question.svg" />
+          Hulp nodig?0
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
